@@ -26,8 +26,8 @@ def get_birthdays_per_week(users: list[dict[str, str | datetime]]):
             birthday_list[day_week].append(user["name"])
 
     print("\nUsers to congratulate next week:")
-    for i, n in birthday_list.items():
-        print("    {:<10}: {:<}".format(i, ', '.join(n)))
+    for day, name in birthday_list.items():
+        print("    {:<10}: {:<}".format(day, ', '.join(name)))
 
 
 if __name__ == "__main__":

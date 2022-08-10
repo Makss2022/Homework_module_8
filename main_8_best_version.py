@@ -42,7 +42,7 @@ if __name__ == "__main__":
         {"name": "Dasha", "birthday": "17.08.1991"},
         {"name": "Sasha", "birthday": "19.08.1994"},
         {"name": "Zara", "birthday": "20.08.1992"},
-        {"name": "Zarina", "birthday": "17.09.1992"},
+        {"name": "Zarina", "birthday": "17.09.1992"}
     ]
 
     for user in users:

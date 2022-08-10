@@ -29,7 +29,7 @@ def get_birthdays_per_week(users: list[dict[str, str | datetime]]):
 
     print("\nUsers to congratulate next week:")
     for i, n in birthday_list.items():
-        print("{:<10}: {:<}".format(i, ', '.join(n)))
+        print("    {:<10}: {:<}".format(i, ', '.join(n)))
 
 
 if __name__ == "__main__":
